@@ -11,7 +11,7 @@ class introGraduate : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intro_graduate)
         btnToast.setOnClickListener {
-            Toast.makeText(this,"토스트 메세지 기능!",Toast.LENGTH_LONG)
+            Toast.makeText(this,editText.text,Toast.LENGTH_LONG).show()
         }
     }
 }
